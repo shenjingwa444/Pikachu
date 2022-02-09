@@ -103,7 +103,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"css.js":[function(require,module,exports) {
+})({"K4Xi":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -111,7 +111,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var string = "\n.skin *{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n  }\n .skin *::after,\n  before {\n    box-sizing: border-box;\n  }\n.skin {\n    height: 50vh;\n    background-color: rgb(255, 230, 0);\n    position: relative;\n  }\n  .nose {\n    border: 10px solid red;\n    width: 20px;\n    height: 20px;\n    position: absolute;\n    left: 50%;\n    top: 150px;\n    margin-left: -10px;\n    border-color: black transparent transparent;\n  }\n  @keyframes wave {\n    0% {\n      transform: rotate(0deg);\n    }\n    33% {\n      transform: rotate(5deg);\n    }\n    66% {\n      transform: rotate(-5deg);\n    }\n    100% {\n      transform: rotate(0deg);\n    }\n  }\n  .nose:hover {\n    transform-origin: center bottom;\n    animation: wave 300ms infinite linear;\n  }\n  .nose .apex-cover {\n    height: 4px;\n    width: 20px;\n    left: 50%;\n    margin-left: -10px;\n    top: -14px;\n    position: absolute;\n    background-color: transparent;\n    overflow: hidden;\n  }\n  \n  .nose .apex-cover .apex {\n    width: 20px;\n    height: 8px;\n    position: absolute;\n    left: 50%;\n    margin-left: -10px;\n    border-radius: 50% 50% 50% 50%;\n    background-color: black;\n  }\n  \n  .eye {\n    border: 3px solid black;\n    width: 64px;\n    height: 64px;\n    left: 50%;\n    margin-left: -32px;\n    position: absolute;\n    top: 110px;\n    border-radius: 50%;\n    background-color: rgb(46, 46, 46);\n  }\n  .eye.left {\n    transform: translateX(-120px);\n  }\n  .eye.right {\n    transform: translateX(120px);\n  }\n  .eye::before {\n    content: \"\";\n    border: 3px solid #000;\n    display: block;\n    width: 26px;\n    height: 26px;\n    background-color: #fff;\n    border-radius: 50%;\n    position: absolute;\n    left: 7px;\n    top: -1px;\n    animation: eyeMove 3s infinite;\n  }\n  @keyframes eyeMove {\n    0%,\n    to {\n      top: 2px;\n      left: 2px;\n    }\n  \n    30%,\n    60%,\n    70% {\n      top: 0;\n      left: 20px;\n    }\n  \n    40% {\n      top: 0;\n      left: 15px;\n    }\n  \n    50% {\n      top: 0;\n      left: 10px;\n    }\n  \n    80%,\n    90% {\n      top: 17px;\n      left: 15px;\n    }\n  }\n  .mouth {\n    width: 204px;\n    height: 300px;\n    position: absolute;\n    left: 50%;\n    margin-left: -102px;\n    top: 180px;\n    overflow: hidden;\n    animation: mouthMove 3s infinite;\n  }\n  @keyframes mouthMove {\n    0%,\n    46%,\n    54%,\n    to {\n      height: 300px;\n    }\n  \n    50% {\n      height: 10px;\n    }\n  }\n  .mouth .up {\n    position: relative;\n    z-index: 5;\n    top: -20px;\n  }\n  .mouth .lip {\n    background-color: rgb(255, 230, 0);\n    border: 3px solid black;\n    height: 40px;\n    width: 100px;\n    position: absolute;\n    left: 50%;\n    margin-left: -50px;\n    border-top-color: transparent;\n    border-right-color: transparent;\n    border-top-left-radius: 20%;\n    border-bottom-left-radius: 80%;\n  }\n  \n  .mouth .lip.left {\n    transform: rotate(-25deg) translateX(-55px);\n  }\n  .mouth .lip.right {\n    transform: rotateY(180deg) rotate(-25deg) translateX(-56px);\n  }\n  .mouth .lip::before {\n    content: \"\";\n    display: block;\n    width: 8px;\n    height: 6px;\n    background-color: rgb(255, 230, 0);\n    position: absolute;\n    top: -1px;\n    left: -4px;\n    transform: rotate(25deg);\n  }\n  /* \u906E\u76D6\u4E0B\u5634\u5507 */\n  .lip-cover {\n    width: 100%;\n    height: 20px;\n    background-color: rgb(255, 230, 0);\n    position: relative;\n    z-index: 1;\n    top: -5px;\n  }\n  \n  .mouth .down {\n    border: 3px solid black;\n    height: 1000px;\n    width: 100%;\n    border-radius: 50%;\n    position: absolute;\n    top: -800px;\n    background-color: rgb(155, 0, 10);\n    overflow: hidden;\n  }\n  .mouth .down .tongue {\n    background-color: rgb(255, 72, 95);\n    height: 300px;\n    width: 200px;\n    position: absolute;\n    bottom: -155px;\n    left: 50%;\n    margin-left: -100px;\n    border-radius: 100px;\n  }\n  .face {\n    border: 3px solid black;\n    height: 88px;\n    width: 88px;\n    position: absolute;\n    left: 50%;\n    margin-left: -44px;\n    top: 240px;\n    border-radius: 50%;\n    background-color: #f00;\n  }\n  .face.left {\n    transform: translateX(-170px);\n  }\n  .face.right {\n    transform: translateX(170px);\n  }\n  .face-wrap:hover img {\n    display: block;\n  }\n  img {\n    position: absolute;\n    top: 44px;\n    left: 44px;\n    display: none;\n  }\n  .face.left > img {\n    transform: rotateY(180deg);\n    transform-origin: left top;\n  }\n";
 exports.default = string;
-},{}],"test.js":[function(require,module,exports) {
+},{}],"HdJB":[function(require,module,exports) {
 "use strict";
 
 var _css = require("./css.js");
@@ -183,175 +183,5 @@ var player = {
 };
 
 player.init();
-},{"./css.js":"css.js"}],"C:\\Users\\jason-cheng\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\parcel\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
-var global = arguments[3];
-var OVERLAY_ID = '__parcel__error__overlay__';
-
-var OldModule = module.bundle.Module;
-
-function Module(moduleName) {
-  OldModule.call(this, moduleName);
-  this.hot = {
-    data: module.bundle.hotData,
-    _acceptCallbacks: [],
-    _disposeCallbacks: [],
-    accept: function (fn) {
-      this._acceptCallbacks.push(fn || function () {});
-    },
-    dispose: function (fn) {
-      this._disposeCallbacks.push(fn);
-    }
-  };
-
-  module.bundle.hotData = null;
-}
-
-module.bundle.Module = Module;
-
-var parent = module.bundle.parent;
-if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = '' || location.hostname;
-  var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49939' + '/');
-  ws.onmessage = function (event) {
-    var data = JSON.parse(event.data);
-
-    if (data.type === 'update') {
-      console.clear();
-
-      data.assets.forEach(function (asset) {
-        hmrApply(global.parcelRequire, asset);
-      });
-
-      data.assets.forEach(function (asset) {
-        if (!asset.isNew) {
-          hmrAccept(global.parcelRequire, asset.id);
-        }
-      });
-    }
-
-    if (data.type === 'reload') {
-      ws.close();
-      ws.onclose = function () {
-        location.reload();
-      };
-    }
-
-    if (data.type === 'error-resolved') {
-      console.log('[parcel] ✨ Error resolved');
-
-      removeErrorOverlay();
-    }
-
-    if (data.type === 'error') {
-      console.error('[parcel] 🚨  ' + data.error.message + '\n' + data.error.stack);
-
-      removeErrorOverlay();
-
-      var overlay = createErrorOverlay(data);
-      document.body.appendChild(overlay);
-    }
-  };
-}
-
-function removeErrorOverlay() {
-  var overlay = document.getElementById(OVERLAY_ID);
-  if (overlay) {
-    overlay.remove();
-  }
-}
-
-function createErrorOverlay(data) {
-  var overlay = document.createElement('div');
-  overlay.id = OVERLAY_ID;
-
-  // html encode message and stack trace
-  var message = document.createElement('div');
-  var stackTrace = document.createElement('pre');
-  message.innerText = data.error.message;
-  stackTrace.innerText = data.error.stack;
-
-  overlay.innerHTML = '<div style="background: black; font-size: 16px; color: white; position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; padding: 30px; opacity: 0.85; font-family: Menlo, Consolas, monospace; z-index: 9999;">' + '<span style="background: red; padding: 2px 4px; border-radius: 2px;">ERROR</span>' + '<span style="top: 2px; margin-left: 5px; position: relative;">🚨</span>' + '<div style="font-size: 18px; font-weight: bold; margin-top: 20px;">' + message.innerHTML + '</div>' + '<pre>' + stackTrace.innerHTML + '</pre>' + '</div>';
-
-  return overlay;
-}
-
-function getParents(bundle, id) {
-  var modules = bundle.modules;
-  if (!modules) {
-    return [];
-  }
-
-  var parents = [];
-  var k, d, dep;
-
-  for (k in modules) {
-    for (d in modules[k][1]) {
-      dep = modules[k][1][d];
-      if (dep === id || Array.isArray(dep) && dep[dep.length - 1] === id) {
-        parents.push(k);
-      }
-    }
-  }
-
-  if (bundle.parent) {
-    parents = parents.concat(getParents(bundle.parent, id));
-  }
-
-  return parents;
-}
-
-function hmrApply(bundle, asset) {
-  var modules = bundle.modules;
-  if (!modules) {
-    return;
-  }
-
-  if (modules[asset.id] || !bundle.parent) {
-    var fn = new Function('require', 'module', 'exports', asset.generated.js);
-    asset.isNew = !modules[asset.id];
-    modules[asset.id] = [fn, asset.deps];
-  } else if (bundle.parent) {
-    hmrApply(bundle.parent, asset);
-  }
-}
-
-function hmrAccept(bundle, id) {
-  var modules = bundle.modules;
-  if (!modules) {
-    return;
-  }
-
-  if (!modules[id] && bundle.parent) {
-    return hmrAccept(bundle.parent, id);
-  }
-
-  var cached = bundle.cache[id];
-  bundle.hotData = {};
-  if (cached) {
-    cached.hot.data = bundle.hotData;
-  }
-
-  if (cached && cached.hot && cached.hot._disposeCallbacks.length) {
-    cached.hot._disposeCallbacks.forEach(function (cb) {
-      cb(bundle.hotData);
-    });
-  }
-
-  delete bundle.cache[id];
-  bundle(id);
-
-  cached = bundle.cache[id];
-  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
-    cached.hot._acceptCallbacks.forEach(function (cb) {
-      cb();
-    });
-    return true;
-  }
-
-  return getParents(global.parcelRequire, id).some(function (id) {
-    return hmrAccept(global.parcelRequire, id);
-  });
-}
-},{}]},{},["C:\\Users\\jason-cheng\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\parcel\\src\\builtins\\hmr-runtime.js","test.js"], null)
-//# sourceMappingURL=/test.3b9f6b77.map
+},{"./css.js":"K4Xi"}]},{},["HdJB"], null)
+//# sourceMappingURL=test.3b148b0c.map
